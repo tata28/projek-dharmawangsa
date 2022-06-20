@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+
+@font-face {
+    font-family: Merriweather-regular;
+    src: url('assets/fonts/Merriweather-Regular.ttf');
+}
+
+@font-face {
+    font-family: Merriweather-light;
+    src: url('assets/fonts/Merriweather-Light.ttf');
+}
+
+@font-face {
+    font-family: MerriweatherSans-regular;
+    src: url('assets/fonts/MerriweatherSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: MerriweatherSans-light;
+    src: url('assets/fonts/MerriweatherSans-Light.ttf');
+}
+
+*{
+    margin:0;
+}
+
+.sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #100701;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.dropdown-menu{
+    background-color: transparent;
+    width:100%;
+}
+
+.dropdown-menu li {
+    color:black;
+}
+
+/* form */
+#large:focus{
+    box-shadow: none;
+    border:1px solid #C66B1B;
+}
+
+#ordinary{
+    border: 1px solid rgb(16, 7, 1,0.5);
+    margin-top:-5px;
+    height:35px;
+    font-family: Merryweather-light;
+    font-size:14px;
+}
+
+#large{
+    border: 1px solid rgb(16, 7, 1,0.5);
+    margin-top:-5px;
+    font-size:14px;
+}
+
+#ordinary:focus{
+    box-shadow: none;
+    border:1px solid #C66B1B;
+}
+
+.form-label{
+    font-family:MerriweatherSans-regular ;
+    font-size: 14px;
+}
+
+.mono{
+    padding-left:7.5%;
+    padding-right:7.5%;
+}
+
+/* font */
+
+.judulHalaman{
+    /* font-family:MerriweatherSans-regular ; */
+}
+
+
+/* button */
+
+
+.btn-1{
+    background-color: #D09222;
+    opacity: 0.95;
+    color:white;
+    width:150px;
+    border:1px solid transparent;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    font-size: 16px;
+}
+
+.btn-1:hover{
+    background-color: white;
+    color:#D09222 ;
+    width:150px;
+}
+
+.btn-1:focus{
+    background-color: white;
+    color:#D09222 ;
+    width:150px;
+    box-shadow: none;
+}
+
+/* .dropdown-toggle{
+    width:250px;
+}
+
+.sidebar .active{
+    margin-left:-250px;
+}
+
+.sidebar ul.components {
+    padding: 0;
+}
+
+.sidebar ul li {
+    font-size: 16px;
+}
+
+.sidebar ul li>ul {
+    margin-left: 10px;
+}
+
+.sidebar ul li>ul li {
+    font-size: 16px;
+}
+
+.dropdown ul li a {
+    padding: 5px 0;
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.sidebar ul li a:hover {
+    color: #f8b739;
+}
+
+.sidebar ul li.active>a {
+    background: transparent;
+    color: #f8b739;
+} */
+
+/* media */
+@media (max-width: 991.98px) {
+    .sidebar {
+        margin-left: -250px;
+    }
+
+    .sidebar.active {
+        margin-left: 0;
+    }
+
+    .subJudul{
+        margin-left:0%;
+    }
+
+    .mono{
+        padding-left:0%;
+        padding-right:0%;
+    }
+
+}
+
+@media(max-width:768px){
+    .tambahAdmin{
+        width:90%;
+    }
+
+
+    .idSolo{
+        margin-left:0%;
+    }
+}
+
+@media(min-width:767px ){
+    .idSolo{
+        margin-left:7.5%;
+    }
+}
+
+@media(max-width:539px){
+    .mainContainer{
+        width:90%;
+    }
+}
+
+@media(min-width:540px){
+    .mainContainer{
+        width:65%;
+    }
+}
+
+@media(min-width:767px) and (max-width:991px){
+    .idSolo{
+        margin-left: 0%;
+    }
+
+}
+
+@media(min-width:992px){
+    .subJudul{
+        margin-left:7%;
+    }
+}
